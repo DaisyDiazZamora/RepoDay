@@ -1,0 +1,15 @@
+{% extends "template.html" %}
+{% block content %}
+<form method="POST">
+ <div class="card">
+   <h5 class="card-header">Editar casillas</h5>
+   <div class="card-body">
+     <label for="exampleInputPassword1">{{ form.as_p }}
+        {% csrf_token %}</label>
+        <br>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+   </div>
+ </div>
+</form>
+{% endblock %}
+

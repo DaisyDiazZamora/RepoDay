@@ -1,0 +1,34 @@
+{% extends "template.html" %}
+{% block content %}
+ <h1>Funcionarios</h1>
+ {% if lista_funcionario %}
+ <table class="table table-striped table-bordered">
+ <thead>
+ <tr>
+ <th>ID</th>
+ <th>NOMBRE COMPLETO</th>
+ <th>SEXO</th>
+ <th>ACCIONES</th>
+ </tr>
+ </thead>
+ <tbody>
+ {% for funcionario in lista_funcionario %}
+ <tr>
+ <td>{{ funcionario.id }}</td> <td>{{ funcionario.nombrecompleto }}</td> <td>{{ funcionario.sexo }}</td><td>  <a href="edit/{{ funcionario.id }}" class="btn btn-primary">Editar</a> 
+ <a href="delete/{{ funcionario.id }}" class="btn btn-danger" onClick="return confirm('¿Seguro que quieres borrar a {{funcionario.nombrecompleto}}?');"> Eliminar</a> </td>
+ </tr>
+
+
+ {% endfor %}
+ <div class="text-right"> 
+     <a href="/eleccion/funcionario/add" class="btn btn-success">Crear Funcionario</a>
+  </div>
+ </tbody>
+ </table>
+ {% else %}
+ <div class="text-right"> 
+    <a href="/eleccion/funcionario/add" class="btn btn-success">Crear Funcionario</a>
+ </div>
+ <p>No hay funcionarios registrados.</p>
+ {% endif %}
+{% endblock %}

@@ -1,0 +1,184 @@
+/*
+* Autor: Daysi Díaz
+*/
+body{
+    font-family: Roboto;
+    font-size: medium;
+    text-transform: none;
+   }
+   img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+   }
+   header{
+   text-align: center;
+   width: 100%;
+   background-color: #2e4157;
+   color:white;
+   margin-bottom: 25px;
+   padding-bottom: 5px;
+   }
+   select{
+   font-weight: bold;
+   }
+   .ubj-fieldset
+   {
+   padding: 10px;
+   border: 1px solid #9b9565 !important;
+   margin: 0;
+   position: relative;
+   border-radius:4px;
+   }
+   .ubj-fieldset legend {
+   padding: 4px;
+   border:none;
+   width:auto;
+   }
+   .ubj-scrollbar {
+   position: relative;
+   width: 100%;
+   overflow: auto;
+   }
+   .ubj-card-primary, .ubj-card-secondary {
+   margin: 0px;
+   padding: 0px;
+   background-color: #fff;
+   }
+   .ubj-card-primary .header {
+   background-color: #2e4157;
+   margin: auto;
+   color:white;
+   width: 100%;
+   text-align: center;
+   height: 60px;
+   padding: 10px;
+   }
+   .ubj-card-secondary .header {
+   background-color: #756d37;
+   margin: auto;
+   color:white;
+   width: 100%;
+   text-align: center;
+   height: 60px;
+   padding: 10px;
+   }
+   .ubj-card-primary .foot-center{
+   padding: 5px;
+   text-align: center;
+   width: 100%;
+   }
+   .ubj-card-primary .foot-right{
+   padding: 5px;
+   text-align: right;
+   width: 100%;
+   }
+   .ubj-card-primary .body{
+   padding-top: 16px;
+   padding: 32px;
+   }
+   h1 {
+   display: block;
+   margin: 0px;
+   }
+   .waistband {
+   height: 15px;
+   width: 100%;
+   background-color: #031b2e;
+   }
+   .ubj-btn-primary {
+   min-width: 120px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   color: #FFFFFF;
+   padding: 6px 6px 6px 6px;
+   background-color: #031B2E;
+   box-shadow: 3px 3px 9px 0px #596C84;
+   -webkit-box-shadow: 3px 3px 9px 0px #596C84;
+   -moz-box-shadow: 3px 3px 9px 0px #596C84;
+   border: solid #2E4157 0px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   }
+   .btn-wrap-text {
+   white-space: normal !important;
+   word-wrap: break-word !important;
+   }
+   .ubj-btn-primary:disabled {
+   opacity: 0.65;
+   cursor: not-allowed;
+   }
+   .ubj-btn-primary:hover {
+   background: #2E4157;
+   border: solid #596C84 2px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   text-decoration: none;
+   }
+   .ubj-btn-secondary{
+   min-width: 120px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   color: #000;
+   padding: 6px 6px 6px 6px;
+   background-color: #a59b62;
+   box-shadow: 3px 3px 9px 0px #756d37;
+   -webkit-box-shadow: 3px 3px 9px 0px #756d37;
+   -moz-box-shadow: 3px 3px 9px 0px #756d37;
+   border: solid #756d37 0px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   }
+   .ubj-btn-secondary:disabled {
+   opacity: 0.65;
+   cursor: not-allowed;
+   }
+   .ubj-btn-secondary:hover {
+   background: #d7cc90;
+   border: solid #d7cc90 2px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   color:#000;
+   text-decoration: none;
+   }
+   .ubj-alert {
+   max-width:500px;
+   top:10%;
+   background-color: #fff;
+   }
+   .ubj-alert .header{
+   background-color: #756d37;
+   margin: auto;
+   color: #fff;
+   width: 100%;
+   text-align: center;
+   height: 60px;
+   padding: 10px;
+   }
+   .ubj-alert .body{
+   padding: 40px;
+   text-align: center;
+   background-color: #fff;
+   color: #000;
+   }
+   .ubj-alert .footer{
+   padding: 5px;
+   text-align: center;
+   width: 100%;
+   }
+   .ubj-bg-primary {
+   background-color: #2e4157;
+   color: #fff;
+   }
+   .ubj-bg-secondary {
+   background-color:#756d37; /*#a59b62*/
+   color: #fff;
+   }
